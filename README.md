@@ -41,8 +41,8 @@ Atualmente só é possível cadastrar essas entidades separadamente, ou seja, pr
 Usuário do Painel Shipay e após, deve ser cadastrada uma (iii) Loja na Conta do cliente Shipay, acessando 3 formulários distintos. Sendo assim, devemos desenvolver 
 a funcionalidade que permita esta ação de realizar todos os cadastros de uma só vez.
 
-4. EPECIFICAÇÃO FUNCIONAL
-Quando um usuário Administrador acessar os "Cadastros" a tela abaixo será aberta apresentando um cadastro completo.
+4. ESPECIFICAÇÃO FUNCIONAL
+Quando um usuário Administrador acessar os "Cadastros" a tela que será aberta apresentará um cadastro completo.
 Neste cadastro todos os campos serão obrigatórios.
 Os campos CPF, E-mail, Telefone, CNPJ devem checar se os dados digitados são validos. 
 Campo CEP, ao preencher já sugere o endereço, porém permite alterar.
