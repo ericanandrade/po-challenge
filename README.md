@@ -30,9 +30,29 @@ Você entendeu a demanda e pediu auxílio do time de Design de Produto para dese
 
 
 #### Você aprovou o design da tela e deve priorizar essa atividade junto ao time de desenolvimento. Escreva a user-story para essa funcionalidade:
+1. OBJETIVO
+Unificar os 3 formulários de cadastro de Conta Shipay, Usuário do Painel Shipay e Loja na Conta do cliente Shipay em somente 1 formulário.
 
+2. PREMISSAS
+Permitir que o usuário realize as ações de cadastros de Conta, Usuário e Loja em somente uma tela. 
+
+3. REQUISITOS FUNCIONAIS
+Atualmente só é possível cadastrar essas entidades separadamente, ou seja, primeiro é necessário cadastrar a (i) Conta Shipay, depois deve ser cadastrado o (ii) 
+Usuário do Painel Shipay e após, deve ser cadastrada uma (iii) Loja na Conta do cliente Shipay, acessando 3 formulários distintos. Sendo assim, devemos desenvolver 
+a funcionalidade que permita esta ação de realizar todos os cadastros de uma só vez.
+
+4. EPECIFICAÇÃO FUNCIONAL
+Quando um usuário Administrador acessar os "Cadastros" a tela abaixo será aberta apresentando um cadastro completo.
+Neste cadastro todos os campos serão obrigatórios.
+Os campos CPF, E-mail, Telefone, CNPJ devem checar se os dados digitados são validos. 
+Campo CEP, ao preencher já sugere o endereço, porém permite alterar.
 
 ---
 
 
 ### 2) O time de desenvolvimento concluiu o desenvolvimento da funcionalidade descrita na questão anterior. Quais testes funcionais você faria para validar essa funcionalidade?
+Teste 1 - Verificar se os campos CPF, E-mail, Telefone, CNPJ estão aceitando somente dados válidos.
+Teste 2 - Se ao clicar em salvar o processo é confirmado.
+Teste 3 - Se o processo é confirmado, verificar se os cadastros de Conta Shipay, Usuário do Painel Shipay e Loja na Conta do cliente Shipay foram criados corretamente
+e se os dados foram salvos corretos.
+Teste 4 - Testar acessos com dados cadastrados
